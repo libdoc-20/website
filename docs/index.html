@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> LD — Articles</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="assets/img/profile.jpg" alt="Profile picture" />
+      <div>
+        <h1> LD </h1>
+        <p>Visionary Childlike innovator working to build a better world</p>
+      </div>
+    </header>
+
+    <h2>Subjects</h2>
+    <div class="cards">
+      <a class="card" href="subjects/science/index.html">
+        <h3>Science →</h3>
+        <p>Physics, math, experiments, and notes (inline equations supported).</p>
+      </a>
+      <a class="card" href="subjects/economics/index.html">
+        <h3>Economics →</h3>
+        <p>Macro, monetary theory, policy, and empirical notes.</p>
+      </a>
+      <!-- Duplicate cards for more subjects -->
+    </div>
+
+    <footer class="footer">
+      <hr />
+      <p>© <span id="y"></span> LD</p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
