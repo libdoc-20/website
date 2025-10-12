@@ -13,3 +13,5 @@ This means societies must develop mechanisms to EConomize these resources, that 
 ![alt text](image.png)
 
 </center>
+
+cdcdcdx
