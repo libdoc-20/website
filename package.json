@@ -1,0 +1,8 @@
+{
+  "name": "libdoc-website",
+  "version": "1.0.0",
+  "description": "Automated documentation website builder",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
